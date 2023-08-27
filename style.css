@@ -1,3 +1,158 @@
-h1{
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+header{
+    width: 1542px;
+height: 808px;
+background-image: url(images/banner/banner1.png);
+background-repeat: no-repeat;
+}
+.header-container{
+    text-align: right;
+    padding: 216px 200px 360px 800px;
+}
+.header-tittle{
+    color: var(--dark-01, #151414);
+text-align: right;
+font-size: 65px;
+font-weight: 700;
+}
+.header-description{
+    color: var(--dark-02, #444343);
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 32px;
+
+}
+.btn-des{
+    border-radius: 7px;
+background: #F15B22;
+border: 0;
+padding: 15px;
+color: #FFF;
+
+font-size: 20px;
+font-weight: 600;
+
+}
+/* failure setion */
+.failure-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+background: #FFF;
+}
+.failure-description-btn{
+    margin-left: 60px;
+    
+    padding-right: 380px;
+    /* width: 1542px;
+height: 3229px; */
+}
+.img-btn{
+    width: 70%;
+    padding-left: 200px;
+    border-radius: 527.929px;
+
+    
+}
+.failure-container{
+    margin-top: 20px;
+}
+.failure-pra-des{
+    color: var(--dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px 0 20px 0;
+
+
+}
+.failure--des-tittle{
+    margin-bottom: 20px;
+    color: var(--dark-01, #151414);
+font-size: 40px;
+font-weight: 700;
+/* margin-right: 400px; */
+
+
+}
+.fail-des{
+    margin-top: 10px;
+margin-bottom: 8px;}
+/* plan  */
+.plan-hrading{
+    text-align: center;color: var(--dark-01, #151414);
+    
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 230px;
+}
+.plan-info-tittle{
+    color: var(--dark-01, #151414);
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 16px;
+
+}
+.plan-info{
+    color: var(--dark-03, #737272);
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+.plan-img{
+margin-bottom: 24px;
+}
+/* mindset */
+.mindset-container{
+    margin: 50px 200px;
+    background-image: url(images/gradient3.png), url(images/watch.png);
+    background-position: left left;
+
+    background-repeat: no-repeat;
+    padding: 80px;
+    border-radius: 8px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+
+    
+
+}
+.maindset{
+    padding: 60px 600pc 100px 60px;
+  
+  
+}
+.mindset-h21{
+    color: #ffff;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 45px;
+
+}
+.btn-dess{
+    border-radius: 7px;
+background: #e8e5e3;
+border: 0;
+padding: 10px;
+color:  #F15B22;
+
+font-size: 20px;
+font-weight: 600;
+margin-top: 20px;
+
 }
